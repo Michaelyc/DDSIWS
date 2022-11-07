@@ -10,7 +10,6 @@ Authors@R:
 Description: This repository is to support the DDSI workshop on Binder
 License: MIT + file LICENSE
 Depends:
-    tidyverse,
     knitr,
     GLMsData,
     cluster,
