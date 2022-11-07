@@ -2,7 +2,10 @@ FROM rocker/tidyverse
 LABEL maintainer='niasra'
 USER root
 COPY . ${HOME}
-RUN chown -R ${NB_USER} ${HOME}
+ENV NB_USER=$NB_USER \
+    NB_UID=$NB_UID \ 
+	NB_GID=$NB_GID
+RUN chown -R $NB_USER:$NB_GID ${HOME}
 USER ${NB_USER}
 
 
