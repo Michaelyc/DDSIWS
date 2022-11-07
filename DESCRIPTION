@@ -1,21 +1,40 @@
 Type: Compendium
-Package: Compendium title
-Title: What the Package Does (One Line, Title Case)
+Package: DDSIWS
+Title: DSHSS workshop repository
 Version: 0.0.1
 Authors@R: 
-    person(given = "Karthik",
-           family = "Ram",
+    person(given = "DDSI",
+           family = "NIASRA",
            role = c("aut", "cre"),
-           email = "karthik.ram@gmail.com",
-           comment = c(ORCID = "0000-0002-0233-1757"))
-Description: Compendium description
+           email = "niasra@uow.edu.au")
+Description: This repository is to support the DDSI workshop on Binder
 License: MIT + file LICENSE
-Depends: 
-    dataRetrieval,
+Depends:
+    tidyverse,
+    knitr,
+    GLMsData,
+    cluster,
+    fpc,
+    Rtsne,
+    ggalt,
+    ggdendro,
+    e1071,
+    ROCR,
+    rpart,
+    rpart.plot,
+    randomForest,
+    nnet,
+    NeuralNetTools,
+    reshape,
+    caret,
+    gganimate,
+    mvtnorm,
+    latex2exp,
+    gifski,
+    plotly,
     dplyr,
     ggplot2,
     lubridate,
-    tidyr,
-    viridis
+    tidyr
 Encoding: UTF-8
 LazyData: true
