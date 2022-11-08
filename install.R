@@ -25,7 +25,4 @@ install.packages(c("tidyverse",
     "latex2exp",
     "gifski",
     "plotly",
-    "dplyr",
-    "ggplot2",
-    "lubridate",
-    "tidyr"))
+    "lubridate"))
