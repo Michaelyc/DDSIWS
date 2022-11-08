@@ -1,3 +1,1 @@
-R -e "download.file('https://www.dropbox.com/s/cld8e00ri6gqhud/DSHSS.zip?dl=1','./DSHSS.zip')"
-R -e "unzip('DSHSS.zip')"
-rm DSHSS.zip
+ wget https://www.dropbox.com/s/cld8e00ri6gqhud/DSHSS.zip && unzip DSHSS.zip && rm -f DSHSS.zip
