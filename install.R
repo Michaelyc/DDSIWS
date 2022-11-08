@@ -1,4 +1,8 @@
 install.packages(c("tidyverse",
+    "gbm",
+    "gridExtra", 
+    "installr",
+    "rattle",
     "tinytex",
     "knitr",
     "GLMsData",
